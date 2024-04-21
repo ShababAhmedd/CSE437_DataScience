@@ -17,8 +17,8 @@ assert banking['acct_cur'].unique() == ['dollar']
 
 </br>
 
-# Uniform dates 
-<h3> Instructions 1/4 </h3>
+<h1> Uniform dates </h1>h1> 
+# Instructions 1/4 
 ```python
 # Print the header of account_opened
 print(banking['account_opened'].head())
