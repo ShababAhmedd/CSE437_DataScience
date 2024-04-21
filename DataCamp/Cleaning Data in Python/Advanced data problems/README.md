@@ -13,6 +13,10 @@ banking.loc[acct_eu, 'acct_cur'] = 'dollar'
 assert banking['acct_cur'].unique() == ['dollar']
 ```
 
+<br>
+
+</br>
+
 # Uniform dates 
 <h3> Instructions 1/4 </h3>
 ```python
@@ -34,6 +38,7 @@ banking['account_opened'] = pd.to_datetime(banking['account_opened'],
 ```
 
 <h3> Instructions 4/4 </h3>
+
 ```python
 # Print the header of account_opened
 print(banking['account_opened'].head())
