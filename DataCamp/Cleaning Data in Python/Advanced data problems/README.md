@@ -13,9 +13,6 @@ banking.loc[acct_eu, 'acct_cur'] = 'dollar'
 assert banking['acct_cur'].unique() == ['dollar']
 ```
 
-<br>
-
-</br>
 
 <h1> Uniform dates </h1>h1> 
 # Instructions 1/4 
