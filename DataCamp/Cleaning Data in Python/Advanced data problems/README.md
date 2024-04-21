@@ -14,13 +14,13 @@ assert banking['acct_cur'].unique() == ['dollar']
 ```
 
 # Uniform dates 
-# Instructions 1/4
+<h3> Instructions 1/4 </h3>
 ```python
 # Print the header of account_opened
 print(banking['account_opened'].head())
 ```
 
-# Instructions 3/4
+<h3> Instructions 3/4 </h3>
 ```python
 # Print the header of account_opened
 print(banking['account_opened'].head())
@@ -31,9 +31,9 @@ banking['account_opened'] = pd.to_datetime(banking['account_opened'],
                                            infer_datetime_format=True,
                                            # Return missing value for error
                                            errors='coerce')
-
 ```
-# Instructions 4/4
+
+<h3> Instructions 4/4 </h3>
 ```python
 # Print the header of account_opened
 print(banking['account_opened'].head())
@@ -51,5 +51,3 @@ banking['acct_year'] = banking['account_opened'].dt.strftime('%Y')
 # Print acct_year
 print(banking['acct_year'])
 ```
-
-#
